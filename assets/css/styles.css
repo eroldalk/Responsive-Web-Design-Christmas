@@ -62,6 +62,26 @@ html{
     scroll-behavior: smooth;
 }
 
+body.dark-theme{
+    --first-color-send: #161212;
+    --title-color: #f3f1f1;
+    --text-color: #d1c7c8;
+    --body-color: #251d1e;
+    --container-color: #302728;
+}
+
+
+.change-theme{
+    position: absolute;
+    right: 1.5rem;
+    top: 2.2rem;
+    display: flex;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+
 
 
 body{
@@ -555,6 +575,13 @@ img{
     .nav__toggle{
         display: none;
     }
+
+    .change-theme{
+        position: initial;
+        margin-left: var(--mb-4);
+    }
+
+
 
     .home__container{
         padding: 7rem 2rem 0;
